@@ -1,12 +1,18 @@
 package basics;
 
+import java.util.Scanner;
+
 public class AreaOfCircle {
     public static void main(String[] args) {
         // Area of triangle
 
-        double r = 8.5;
+//        double r = 8.5;
 
-        double area = 2.141592 * r * r;
+        Scanner sc = new Scanner(System.in);
+
+        double r = sc.nextDouble();
+
+        double area = 3.141592 * r * r;
 
         System.out.println(area);
     }
