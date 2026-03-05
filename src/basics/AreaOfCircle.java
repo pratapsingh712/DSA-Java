@@ -10,10 +10,13 @@ public class AreaOfCircle {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter Radius : ");
+
         double r = sc.nextDouble();
 
         double area = 3.141592 * r * r;
 
-        System.out.println(area);
+        System.out.print("Area is : ");
+        System.out.print(area);
     }
 }
