@@ -12,7 +12,7 @@ public class SimpleInterestCalculator {
         System.out.println("Enter Rate of Interest : ");
         double rate_Interest = sc.nextDouble();
 
-        System.out.println("Enter the Time Perioud : ");
+        System.out.println("Enter the Time Period : ");
         double time_Period = sc.nextDouble();
 
         double simple_Interest = principal_Amount*rate_Interest*time_Period/100;
