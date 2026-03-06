@@ -13,7 +13,7 @@ public class EvenOrOdd {
                 throw new IllegalArgumentException("Negative Numbers are not allowed !");
             } else{
                 if(num%2==0){
-                    System.out.println("The Number you entered is even !");
+                    System.out.println("The Number you entered is even");
                 }if(num%2!=0){
                     System.out.println("The Number you entered is Odd");
                 }
