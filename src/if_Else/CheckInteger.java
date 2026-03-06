@@ -12,10 +12,11 @@ public class CheckInteger {
             if(num<0){
                 throw new IllegalArgumentException("Negative Number is not allowed !");
             }else{
-                if(num%2==0.0 || num%2==1.0){
-                    System.out.println("Number is integer :");
+                int x = (int)num;
+                if(num-x>0){
+                    System.out.println("Number is Double :");
                 }else{
-                    System.out.println("Number is double :");
+                    System.out.println("Number is Integer :");
                 }
             }
         }catch (IllegalArgumentException e){
