@@ -25,7 +25,7 @@ public class ProfitAndLoss {
             double profit_Percentage = buying_Price - selling_Price;
             profit_Percentage = profit_Percentage/buying_Price*100.0;
             System.out.println("You made loss of "+profit_Percentage+"%");
-        } else if(selling_Price - buying_Price== 0){
+        } else {
             // no profit no loss
             System.out.println("Made No profit and No loss : ");
         }
